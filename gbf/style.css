@@ -2,7 +2,7 @@ table  {
   border-collapse: collapse;
   border-spacing: 0;
   border-color: #aabcfe;
-  margin: 0px auto;
+  margin: 10px 10px;
   text-align: center;
 }
 table th {
