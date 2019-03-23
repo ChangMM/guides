@@ -1,0 +1,61 @@
+<!doctype html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<style type = "text/css">
+  table td {
+    text-align: left;
+  }
+</style>
+
+<table>
+  <tr>
+    <th colspan="2">Turn Flow</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Preparation Phase</th>
+    <td>Use Skills and Summons</td>
+  </tr>
+  <tr>
+    <td>Attack to proceed to the Attack Phase</td>
+  </tr>
+  <tr>
+    <th rowspan="4">Attack Phase</th>
+    <td>
+      For each Ally :
+      <ul>
+        <li>If 100% Charge Bar and Charge Attack is on Auto → Use Charge Attack</li>
+        <li>Else → Use Normal Attack</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>If Allies used two or more Charge Attacks → Use Chain Burst</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      For each Foe :
+      <ul>
+        <li>If Mode Bar has been filled → Enter Overdrive Mode</li>
+        <li>If Mode Bar has been drained → Enter Break Mode</li>
+        <li>If a Phase Change has been triggered → Change Phase</li>
+      </ul>
+    </td>
+  </tr>
+    <tr>
+    <td>
+      For each Foe :
+      <ul>
+        <li>If a Special Attack has been triggered → Use Special Attack</li>
+        <li>Else if Charge Diamonds ◇ are filled and Foe is not in Break Mode → Use Special Attack</li>
+        <li>Else → Use Normal Attack</li>
+      </ul>      
+    </td>
+  </tr>
+</table>
