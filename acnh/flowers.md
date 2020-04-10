@@ -1,19 +1,36 @@
 # Flower Heredity in ACNH
 
-## Genes
+## Flower Types
+
+There are 8 different flower types, coming in 9 different colors.
+
+| Type       |                             Red                              |               Yellow                |                 White                 |                Pink                 |                 Orange                  |                 Purple                  |             Black             |                Blue                 |          Green          |
+| ---------- | :----------------------------------------------------------: | :---------------------------------: | :-----------------------------------: | :---------------------------------: | :-------------------------------------: | :-------------------------------------: | :---------------------------: | :---------------------------------: | :---------------------: |
+| Rose       | ![Red Rose][Red Rose]<img src="https://i.imgur.com/WNw4bsy.png" width="200px"/> |     ![Yellow Rose][Yellow Rose]     |       ![White Rose][White Rose]       |       ![Pink Rose][Pink Rose]       |       ![Orange Rose][Orange Rose]       |       ![Purple Rose][Purple Rose]       |   ![Black Rose][Black Rose]   |       ![Blue Rose][Blue Rose]       |            X            |
+| Tulip      |                   ![Red Tulip][Red Tulip]                    |    ![Yellow Tulip][Yellow Tulip]    |      ![White Tulip][White Tulip]      |      ![Pink Tulip][Pink Tulip]      |      ![Orange Tulip][Orange Tulip]      |      ![Purple Tulip][Purple Tulip]      |  ![Black Tulip][Black Tulip]  |                  X                  |            X            |
+| Pansy      |                   ![Red Pansy][Red Pansy]                    |    ![Yellow Pansy][Yellow Pansy]    |      ![White Pansy][White Pansy]      |                  X                  |      ![Orange Pansy][Orange Pansy]      |      ![Purple Pansy][Purple Pansy]      |               X               |      ![Blue Pansy][Blue Pansy]      |            X            |
+| Cosmos     |                  ![Red Cosmos][Red Cosmos]                   |   ![Yellow Cosmos][Yellow Cosmos]   |     ![White Cosmos][White Cosmos]     |     ![Pink Cosmos][Pink Cosmos]     |     ![Orange Cosmos][Orange Cosmos]     |                    X                    | ![Black Cosmos][Black Cosmos] |                  X                  |            X            |
+| Lily       |                    ![Red Lily][Red Lily]                     |     ![Yellow Lily][Yellow Lily]     |       ![White Lily][White Lily]       |       ![Pink Lily][Pink Lily]       |       ![Orange Lily][Orange Lily]       |                    X                    |   ![Black Lily][Black Lily]   |                  X                  |            X            |
+| Hyacinth   |                ![Red Hyacinth][Red Hyacinth]                 | ![Yellow Hyacinth][Yellow Hyacinth] |   ![White Hyacinth][White Hyacinth]   |   ![Pink Hyacinth][Pink Hyacinth]   |   ![Orange Hyacinth][Orange Hyacinth]   |   ![Purple Hyacinth][Purple Hyacinth]   |               X               |   ![Blue Hyacinth][Blue Hyacinth]   |            X            |
+| Windflower |              ![Red Windflower][Red Windflower]               |                  X                  | ![White Windflower][White Windflower] | ![Pink Windflower][Pink Windflower] | ![Orange Windflower][Orange Windflower] | ![Purple Windflower][Purple Windflower] |               X               | ![Blue Windflower][Blue Windflower] |            X            |
+| Mum        |                     ![Red Mum][Red Mum]                      |      ![Yellow Mum][Yellow Mum]      |        ![White Mum][White Mum]        |        ![Pink Mum][Pink Mum]        |                    X                    |        ![Purple Mum][Purple Mum]        |               X               |                  X                  | ![Green Mum][Green Mum] |
+
+## Flower Genes
 
 Genes are hidden values attached to each flower, which determine their actual color.
 
 ### Gene Types
 
-Four different genes exist. Roses use all four, while other flower types use only three.
+There are 4 different genes.
 
-| Gene Code | Gene Name  | Details                                                      |
-| --------- | ---------- | ------------------------------------------------------------ |
-| Rr        | Red        | Reflects the flower's red coloration level                   |
-| Yy        | Yellow     | Reflects the flower's yellow coloration level                |
-| Ww        | White      | Reflects the flower's white coloration level                 |
-| Bb        | Brightness | Roses only<br />Reflects the flower's red coloration brightness |
+Roses use all 4 genes, while other flower types use only 3.
+
+| Gene Code | Gene Name  | Effect                                                    |
+| --------- | ---------- | --------------------------------------------------------- |
+| R         | Red        | Affects the flower's red color level                      |
+| Y         | Yellow     | Affects the flower's yellow color level                   |
+| W         | White      | Affects the flower's white color level                    |
+| B         | Brightness | Roses only<br />Affects the flower's red color brightness |
 
 ### Gene Values
 
@@ -27,14 +44,14 @@ Each individual gene can have 3 different values.
 
 ### Gene Combinations
 
-Thus we have 81 different combinations for Roses, and 27 different combinations for other flower types.
+There are 81 different possible combinations for Roses, and 27 for other flower types.
 
-|  R   |  Y   |  W   |            Rose             |            Rose             |            Rose             |             Tulip             |             Pansy             |             Cosmos              |            Lily             |              Hyacinth               |               Windflower                |            Mum            |
+|  R   |  Y   |  W   |           Rose B0           |           Rose B1           |           Rose B2           |             Tulip             |             Pansy             |             Cosmos              |            Lily             |              Hyacinth               |               Windflower                |            Mum            |
 | :--: | :--: | :--: | :-------------------------: | :-------------------------: | :-------------------------: | :---------------------------: | :---------------------------: | :-----------------------------: | :-------------------------: | :---------------------------------: | :-------------------------------------: | :-----------------------: |
-|  0   |  0   |  0   |  ![White Rose][White Rose] <img src="https://i.imgur.com/Xacr6JK.png" width="200"/>  |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Tulip][White Tulip]  |  ![White Pansy][White Pansy]  |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |  ![White Hyacinth][White Hyacinth]  |  ![White Windflower][White Windflower]  |  ![White Mum][White Mum]  |
+|  0   |  0   |  0   |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Tulip][White Tulip]  |  ![White Pansy][White Pansy]  |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |  ![White Hyacinth][White Hyacinth]  |  ![White Windflower][White Windflower]  |  ![White Mum][White Mum]  |
 |  0   |  0   |  1   |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Tulip][White Tulip]  |  ![White Pansy][White Pansy]  |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |  ![White Hyacinth][White Hyacinth]  |  ![White Windflower][White Windflower]  |  ![White Mum][White Mum]  |
 |  0   |  0   |  2   | ![Purple Rose][Purple Rose] | ![Purple Rose][Purple Rose] | ![Purple Rose][Purple Rose] |  ![White Tulip][White Tulip]  |   ![Blue Pansy][Blue Pansy]   |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |   ![Blue Hyacinth][Blue Hyacinth]   |   ![Blue Windflower][Blue Windflower]   | ![Purple Mum][Purple Mum] |
-|  0   |  1   |  0   | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] |  ![White Lily][White Lily]  | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
+|  0   |  1   |  0   | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
 |  0   |  1   |  1   |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] |  ![White Lily][White Lily]  | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
 |  0   |  1   |  2   | ![Purple Rose][Purple Rose] | ![Purple Rose][Purple Rose] | ![Purple Rose][Purple Rose] |  ![White Tulip][White Tulip]  |   ![Blue Pansy][Blue Pansy]   |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |  ![White Hyacinth][White Hyacinth]  |   ![Blue Windflower][Blue Windflower]   |  ![White Mum][White Mum]  |
 |  0   |  2   |  0   | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
