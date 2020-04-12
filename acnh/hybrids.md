@@ -30,9 +30,9 @@ While breeding Oranges `ry` together to produce Purple, add new Oranges together
 
 |      Parent       |      Parent       |      Offspring      |  Chance   |
 | :---------------: | :---------------: | :-----------------: | :-------: |
-| ![][WT] <br/>[w]  | ![][RT] <br/>[Rw] |   ![][PT] <br/>rw   |    1/2    |
-|  ![][YT]<br/>[Y]  | ![][RT] <br/>[Rw] |   ![][OT]<br/>ry    |    1/2    |
-| ![][RT] <br/>[Rw] | ![][RT] <br/>[Rw] |    ![][BT]<br/>R    |    1/4    |
+| ![][WT] <br/>\[w]  | ![][RT] <br/>\[Rw] |   ![][PT] <br/>rw   |    1/2    |
+|  ![][YT]<br/>\[Y]  | ![][RT] <br/>\[Rw] |   ![][OT]<br/>ry    |    1/2    |
+| ![][RT] <br/>\[Rw] | ![][RT] <br/>\[Rw] |    ![][BT]<br/>R    |    1/4    |
 |  ![][OT]<br/>ry   |  ![][OT]<br/>ry   |   ![][LT]<br/>RY    |   1/16    |
 |  ![][OT]<br/>ry   |  ![][OT]<br/>ry   | ![][OT]<br/>ry / rY | 1/4 + 1/8 |
 |  ![][OT]<br/>rY   |  ![][OT]<br/>rY   |   ![][LT]<br/>RY    |    1/4    |
@@ -41,9 +41,9 @@ While breeding Oranges `ry` together to produce Purple, add new Oranges together
 
 |     Parent      |     Parent      |     Child      | Chance |
 | :-------------: | :-------------: | :------------: | :----: |
-| ![][WP]<br/>[w] | ![][WP]<br/>[w] | ![][UP]<br/>W  |  1/4   |
-| ![][YP]<br/>[Y] | ![][RP]<br/>[R] | ![][OP]<br/>ry |  100%  |
-|  ![][UP]<br/>W  | ![][RP]<br/>[R] | ![][RP]<br/>rw |  100%  |
+| ![][WP]<br/>\[w] | ![][WP]<br/>\[w] | ![][UP]<br/>W  |  1/4   |
+| ![][YP]<br/>\[Y] | ![][RP]<br/>\[R] | ![][OP]<br/>ry |  100%  |
+|  ![][UP]<br/>W  | ![][RP]<br/>\[R] | ![][RP]<br/>rw |  100%  |
 |  ![][UP]<br/>W  | ![][RP]<br/>rw  | ![][LP]<br/>RW |  1/16  |
 
 ### Cosmos
@@ -52,8 +52,8 @@ While breeding Oranges `ry` together to produce Purple, add new Oranges together
 
 |      Parent      |     Parent      |        Child         |       Chance       |
 | :--------------: | :-------------: | :------------------: | :----------------: |
-| ![][WC]<br/>[w]  | ![][RC]<br/>[R] |  ![][PC]<br/>r / rw  |  1/2 + 1/2 = 100%  |
-| ![][YC]<br/>[Yw] | ![][RC]<br/>[R] | ![][OC]<br/>ry / ryw |  1/2 + 1/2 = 100%  |
+| ![][WC]<br/>\[w]  | ![][RC]<br/>\[R] |  ![][PC]<br/>r / rw  |  1/2 + 1/2 = 100%  |
+| ![][YC]<br/>\[Yw] | ![][RC]<br/>\[R] | ![][OC]<br/>ry / ryw |  1/2 + 1/2 = 100%  |
 |  ![][OC]<br/>ry  | ![][OC]<br/>ry  |    ![][BC]<br/>RY    |        1/16        |
 |  ![][OC]<br/>ry  | ![][OC]<br/>ryw | ![][BC]<br/>RY / RYw | 1/32 + 1/32 = 1/16 |
 | ![][OC]<br/>ryw  | ![][OC]<br/>ryw | ![][BC]<br/>RY / RYw | 1/64 + 1/32 = 3/64 |
@@ -64,10 +64,10 @@ While breeding Oranges `ry` together to produce Purple, add new Oranges together
 
 |      Parent      |      Parent      |     Child      | Chance |
 | :--------------: | :--------------: | :------------: | :----: |
-| ![][WL]<br/>[w]  | ![][RL]<br/>[Rw] | ![][PL]<br/>rw |  1/2   |
-| ![][YL]<br/>[Y]  | ![][RL]<br/>[Rw] | ![][OL]<br/>ry |  1/2   |
-| ![][RL]<br/>[Rw] | ![][RL]<br/>[Rw] | ![][PL]<br/>RW |  1/4   |
-| ![][RL]<br/>[Rw] | ![][RL]<br/>[Rw] | ![][BL]<br/>RW |  1/4   |
+| ![][WL]<br/>\[w]  | ![][RL]<br/>\[Rw] | ![][PL]<br/>rw |  1/2   |
+| ![][YL]<br/>\[Y]  | ![][RL]<br/>\[Rw] | ![][OL]<br/>ry |  1/2   |
+| ![][RL]<br/>\[Rw] | ![][RL]<br/>\[Rw] | ![][PL]<br/>RW |  1/4   |
+| ![][RL]<br/>\[Rw] | ![][RL]<br/>\[Rw] | ![][BL]<br/>RW |  1/4   |
 
 ### Hyacinths
 
@@ -77,9 +77,9 @@ While breeding Oranges `ry` together to produce Purple, combine new Oranges and 
 
 |     Parent      |      Parent      |        Child        |  Chance   |
 | :-------------: | :--------------: | :-----------------: | :-------: |
-| ![][WH]<br/>[w] | ![][WH]<br/>[w]  |    ![][UH]<br/>W    |    1/4    |
-| ![][WH]<br/>[w] | ![][RH]<br/>[Rw] |   ![][PH]<br/>rw    |    1/2    |
-| ![][YH]<br/>[y] | ![][RH]<br/>[Rw] |   ![][OH]<br/>ry    |    1/2    |
+| ![][WH]<br/>\[w] | ![][WH]<br/>\[w]  |    ![][UH]<br/>W    |    1/4    |
+| ![][WH]<br/>\[w] | ![][RH]<br/>\[Rw] |   ![][PH]<br/>rw    |    1/2    |
+| ![][YH]<br/>\[y] | ![][RH]<br/>\[Rw] |   ![][OH]<br/>ry    |    1/2    |
 | ![][OH]<br/>ry  |  ![][OH]<br/>ry  |   ![][LH]<br/>RY    |   1/16    |
 | ![][OH]<br/>ry  |  ![][OH]<br/>ry  |   ![][UH]<br/>Ry    |    1/8    |
 | ![][OH]<br/>ry  |  ![][OH]<br/>ry  | ![][OH]<br/>ry / rY | 1/4 + 1/8 |
@@ -89,9 +89,9 @@ While breeding Oranges `ry` together to produce Purple, combine new Oranges and 
 
 |     Parent      |     Parent      |     Child      | Chance |
 | :-------------: | :-------------: | :------------: | :----: |
-| ![][WW]<br/>[w] | ![][WW]<br/>[w] | ![][UW]<br/>W  |  1/4   |
-| ![][OW]<br/>[Y] | ![][RW]<br/>[R] | ![][PW]<br/>ry |  100%  |
-| ![][RW]<br/>[R] |  ![][UW]<br/>W  | ![][RW]<br/>rw |  100%  |
+| ![][WW]<br/>\[w] | ![][WW]<br/>\[w] | ![][UW]<br/>W  |  1/4   |
+| ![][OW]<br/>\[Y] | ![][RW]<br/>\[R] | ![][PW]<br/>ry |  100%  |
+| ![][RW]<br/>\[R] |  ![][UW]<br/>W  | ![][RW]<br/>rw |  100%  |
 | ![][RW]<br/>rw  | ![][RW]<br/>rw  | ![][LW]<br/>RW |  1/16  |
 
 ### Mums
@@ -102,10 +102,10 @@ While breeding Yellows `ry` together to produce Green, combine new Purples in an
 
 |       Parent        |       Parent        |        Child        |     Chance      |
 | :-----------------: | :-----------------: | :-----------------: | :-------------: |
-|   ![][WM]<br/>[w]   |   ![][WM]<br/>[w]   |    ![][LM]<br/>W    |       1/4       |
-|   ![][WM]<br/>[w]   |   ![][RM]<br/>[R]   |   ![][PM]<br/>rw    |      100%       |
-|    ![][LM]<br/>W    |   ![][RM]<br/>[R]   |   ![][PM]<br/>rw    |      100%       |
-|   ![][YM]<br/>[Y]   |   ![][RM]<br/>[R]   |   ![][YM]<br/>ry    |      100%       |
+|   ![][WM]<br/>\[w]   |   ![][WM]<br/>\[w]   |    ![][LM]<br/>W    |       1/4       |
+|   ![][WM]<br/>\[w]   |   ![][RM]<br/>\[R]   |   ![][PM]<br/>rw    |      100%       |
+|    ![][LM]<br/>W    |   ![][RM]<br/>\[R]   |   ![][PM]<br/>rw    |      100%       |
+|   ![][YM]<br/>\[Y]   |   ![][RM]<br/>\[R]   |   ![][YM]<br/>ry    |      100%       |
 |   ![][YM]<br/>ry    |   ![][YM]<br/>ry    |   ![][GM]<br/>RY    |      1/16       |
 |   ![][YM]<br/>ry    |   ![][YM]<br/>ry    | ![][LM]<br/>rY / Ry | 1/8 + 1/8 = 1/4 |
 | ![][LM]<br/>rY / Ry | ![][LM]<br/>rY / Ry |   ![][GM]<br/>RY    |       1/4       |
