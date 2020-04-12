@@ -1,12 +1,12 @@
 # ACNH Simple Hybrid Guide
 
-* **Basic White/Yellow/Red flowers MUST be grown from seeds.**
+* **Basic White/Yellow/Red flowers MUST be grown from seeds.** <br/>
   This is to ensure they possess the right genotype. White/Yellow/Red flowers not grown from seeds may carry different genes and thus may result in totally different offspring colors and chances. Start from seed bags and discard any flower not used in this guide.
 
-* **Only use flowers with the RIGHT label.**
+* **Only use flowers with the RIGHT label. **<br/>
   These combinations are correct only when using flowers with the right labeled genotype. Flower color on its own is not relevant, only genotype is.
 
-* **Water ALL the pairs you want to breed.**
+* **Water ALL the pairs you want to breed.** <br/>
   Contrary to ACNL, the number of daily new flower spawns is not capped in ACNH.
 
 * Label below each flower represents its genotype.
@@ -120,7 +120,7 @@ While breeding Yellows `ry` together to produce Green, combine new Purples in an
 
 ## Thanks
 
-* Paleh and her extensive research on ACNL for confirming Mendelian inheritance
+* Paleh and her extensive research on ACNL for confirming Mendelian inheritance <br/>
   We reached the same conclusions on most combinations so check out her guide
 * Backwardsn for his knowledgeability about the flower spawning system
 * Astro for providing datamine files and informations
