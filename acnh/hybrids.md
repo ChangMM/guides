@@ -3,7 +3,7 @@
 * **Basic White/Yellow/Red flowers MUST be grown from seeds.** <br/>
   This is to ensure they possess the right genotype. White/Yellow/Red flowers not grown from seeds may carry different genes and thus may result in totally different offspring colors and chances. Start from seed bags and discard any flower not used in this guide.
 
-* **Only use flowers with the RIGHT label. **<br/>
+* **Only use flowers with the RIGHT label.** <br/>
   These combinations are correct only when using flowers with the right labeled genotype. Flower color on its own is not relevant, only genotype is.
 
 * **Water ALL the pairs you want to breed.** <br/>
