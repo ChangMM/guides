@@ -6,14 +6,14 @@ There are 8 different flower types, coming in 9 different colors.
 
 | Type       |                            Red                             |               Yellow                |                 White                 |                Pink                 |                 Orange                  |                 Purple                  |             Black             |                Blue                 |          Green          |
 | ---------- | :--------------------------------------------------------: | :---------------------------------: | :-----------------------------------: | :---------------------------------: | :-------------------------------------: | :-------------------------------------: | :---------------------------: | :---------------------------------: | :---------------------: |
-| Rose       | <img src="https://i.imgur.com/WNw4bsy.png" width="32px"/> |     ![Yellow Rose][Yellow Rose]     |       ![White Rose][White Rose]       |       ![Pink Rose][Pink Rose]       |       ![Orange Rose][Orange Rose]       |       ![Purple Rose][Purple Rose]       |   ![Black Rose][Black Rose]   |       ![Blue Rose][Blue Rose]       |            X            |
-| Tulip      |                  ![Red Tulip][Red Tulip]                   |    ![Yellow Tulip][Yellow Tulip]    |      ![White Tulip][White Tulip]      |      ![Pink Tulip][Pink Tulip]      |      ![Orange Tulip][Orange Tulip]      |      ![Purple Tulip][Purple Tulip]      |  ![Black Tulip][Black Tulip]  |                  X                  |            X            |
-| Pansy      |                  ![Red Pansy][Red Pansy]                   |    ![Yellow Pansy][Yellow Pansy]    |      ![White Pansy][White Pansy]      |                  X                  |      ![Orange Pansy][Orange Pansy]      |      ![Purple Pansy][Purple Pansy]      |               X               |      ![Blue Pansy][Blue Pansy]      |            X            |
-| Cosmos     |                 ![Red Cosmos][Red Cosmos]                  |   ![Yellow Cosmos][Yellow Cosmos]   |     ![White Cosmos][White Cosmos]     |     ![Pink Cosmos][Pink Cosmos]     |     ![Orange Cosmos][Orange Cosmos]     |                    X                    | ![Black Cosmos][Black Cosmos] |                  X                  |            X            |
-| Lily       |                   ![Red Lily][Red Lily]                    |     ![Yellow Lily][Yellow Lily]     |       ![White Lily][White Lily]       |       ![Pink Lily][Pink Lily]       |       ![Orange Lily][Orange Lily]       |                    X                    |   ![Black Lily][Black Lily]   |                  X                  |            X            |
-| Hyacinth   |               ![Red Hyacinth][Red Hyacinth]                | ![Yellow Hyacinth][Yellow Hyacinth] |   ![White Hyacinth][White Hyacinth]   |   ![Pink Hyacinth][Pink Hyacinth]   |   ![Orange Hyacinth][Orange Hyacinth]   |   ![Purple Hyacinth][Purple Hyacinth]   |               X               |   ![Blue Hyacinth][Blue Hyacinth]   |            X            |
-| Windflower |             ![Red Windflower][Red Windflower]              |                  X                  | ![White Windflower][White Windflower] | ![Pink Windflower][Pink Windflower] | ![Orange Windflower][Orange Windflower] | ![Purple Windflower][Purple Windflower] |               X               | ![Blue Windflower][Blue Windflower] |            X            |
-| Mum        |                    ![Red Mum][Red Mum]                     |      ![Yellow Mum][Yellow Mum]      |        ![White Mum][White Mum]        |        ![Pink Mum][Pink Mum]        |                    X                    |        ![Purple Mum][Purple Mum]        |               X               |                  X                  | ![Green Mum][Green Mum] |
+| Rose       | ![RR][RR]  									  |     ![YR][YR]     |       ![WR][WR]       |       ![PR][PR]       |       ![OR][OR]       |       ![LR][LR]       |   ![BR][BR]   |       ![UR][UR]       |            X            |
+| Tulip      |                  ![RT][RT]                   |    ![YT][YT]    |      ![WT][WT]      |      ![PT][PT]      |      ![OT][OT]      |      ![LT][LT]      |  ![BT][BT]  |                  X                  |            X            |
+| Pansy      |                  ![RP][RP]                   |    ![YP][YP]    |      ![WP][WP]      |                  X                  |      ![OP][OP]      |      ![LP][LP]      |               X               |      ![UP][UP]      |            X            |
+| Cosmos     |                 ![RCosmos][RCosmos]                  |   ![YCosmos][YCosmos]   |     ![WCosmos][WCosmos]     |     ![PCosmos][PCosmos]     |     ![OCosmos][OCosmos]     |                    X                    | ![BCosmos][BCosmos] |                  X                  |            X            |
+| Lily       |                   ![RLily][RLily]                    |     ![YLily][YLily]     |       ![WLily][WLily]       |       ![PLily][PLily]       |       ![OLily][OLily]       |                    X                    |   ![BLily][BLily]   |                  X                  |            X            |
+| Hyacinth   |               ![RH][RH]                | ![YH][YH] |   ![WH][WH]   |   ![PH][PH]   |   ![OH][OH]   |   ![LH][LH]   |               X               |   ![UH][UH]   |            X            |
+| Windflower |             ![RW][RW]              |                  X                  | ![WW][WW] | ![PW][PW] | ![OW][OW] | ![LW][LW] |               X               | ![UW][UW] |            X            |
+| Mum        |                    ![RM][RM]                     |      ![YM][YM]      |        ![WM][WM]        |        ![PM][PM]        |                    X                    |        ![LM][LM]        |               X               |                  X                  | ![GM][GM] |
 
 ## Flower Genes
 
@@ -48,90 +48,90 @@ There are 81 different possible combinations for Roses, and 27 for other flower 
 
 |  R   |  Y   |  W   |           Rose B0           |           Rose B1           |           Rose B2           |             Tulip             |             Pansy             |             Cosmos              |            Lily             |              Hyacinth               |               Windflower                |            Mum            |
 | :--: | :--: | :--: | :-------------------------: | :-------------------------: | :-------------------------: | :---------------------------: | :---------------------------: | :-----------------------------: | :-------------------------: | :---------------------------------: | :-------------------------------------: | :-----------------------: |
-|  0   |  0   |  0   |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Tulip][White Tulip]  |  ![White Pansy][White Pansy]  |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |  ![White Hyacinth][White Hyacinth]  |  ![White Windflower][White Windflower]  |  ![White Mum][White Mum]  |
-|  0   |  0   |  1   |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Tulip][White Tulip]  |  ![White Pansy][White Pansy]  |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |  ![White Hyacinth][White Hyacinth]  |  ![White Windflower][White Windflower]  |  ![White Mum][White Mum]  |
-|  0   |  0   |  2   | ![Purple Rose][Purple Rose] | ![Purple Rose][Purple Rose] | ![Purple Rose][Purple Rose] |  ![White Tulip][White Tulip]  |   ![Blue Pansy][Blue Pansy]   |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |   ![Blue Hyacinth][Blue Hyacinth]   |   ![Blue Windflower][Blue Windflower]   | ![Purple Mum][Purple Mum] |
-|  0   |  1   |  0   | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
-|  0   |  1   |  1   |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] |  ![White Lily][White Lily]  | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
-|  0   |  1   |  2   | ![Purple Rose][Purple Rose] | ![Purple Rose][Purple Rose] | ![Purple Rose][Purple Rose] |  ![White Tulip][White Tulip]  |   ![Blue Pansy][Blue Pansy]   |  ![White Cosmos][White Cosmos]  |  ![White Lily][White Lily]  |  ![White Hyacinth][White Hyacinth]  |   ![Blue Windflower][Blue Windflower]   |  ![White Mum][White Mum]  |
-|  0   |  2   |  0   | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
-|  0   |  2   |  1   | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
-|  0   |  2   |  2   |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  |  ![White Rose][White Rose]  | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Yellow Cosmos][Yellow Cosmos] |  ![White Lily][White Lily]  | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Yellow Mum][Yellow Mum] |
-|  1   |  0   |  0   |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   |  ![White Rose][White Rose]  |    ![Red Tulip][Red Tulip]    |    ![Red Pansy][Red Pansy]    |   ![Pink Cosmos][Pink Cosmos]   |    ![Red Lily][Red Lily]    |    ![Red Hyacinth][Red Hyacinth]    |    ![Red Windflower][Red Windflower]    |   ![Pink Mum][Pink Mum]   |
-|  1   |  0   |  1   |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   |  ![White Rose][White Rose]  |   ![Pink Tulip][Pink Tulip]   |    ![Red Pansy][Red Pansy]    |   ![Pink Cosmos][Pink Cosmos]   |   ![Pink Lily][Pink Lily]   |   ![Pink Hyacinth][Pink Hyacinth]   |    ![Red Windflower][Red Windflower]    |   ![Pink Mum][Pink Mum]   |
-|  1   |  0   |  2   |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   | ![Purple Rose][Purple Rose] |  ![White Tulip][White Tulip]  |   ![Blue Pansy][Blue Pansy]   |   ![Pink Cosmos][Pink Cosmos]   |  ![White Lily][White Lily]  |  ![White Hyacinth][White Hyacinth]  |   ![Blue Windflower][Blue Windflower]   |   ![Pink Mum][Pink Mum]   |
-|  1   |  1   |  0   | ![Orange Rose][Orange Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Orange Tulip][Orange Tulip] | ![Orange Pansy][Orange Pansy] | ![Orange Cosmos][Orange Cosmos] | ![Orange Lily][Orange Lily] | ![Orange Hyacinth][Orange Hyacinth] |   ![Pink Windflower][Pink Windflower]   | ![Yellow Mum][Yellow Mum] |
-|  1   |  1   |  1   |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   |  ![White Rose][White Rose]  | ![Yellow Tulip][Yellow Tulip] | ![Orange Pansy][Orange Pansy] | ![Orange Cosmos][Orange Cosmos] | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] |   ![Pink Windflower][Pink Windflower]   |    ![Red Mum][Red Mum]    |
-|  1   |  1   |  2   |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   | ![Purple Rose][Purple Rose] | ![Yellow Tulip][Yellow Tulip] | ![Orange Pansy][Orange Pansy] |   ![Pink Cosmos][Pink Cosmos]   | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] |   ![Pink Windflower][Pink Windflower]   |   ![Pink Mum][Pink Mum]   |
-|  1   |  2   |  0   | ![Orange Rose][Orange Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Orange Tulip][Orange Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Orange Cosmos][Orange Cosmos] | ![Orange Lily][Orange Lily] | ![Orange Hyacinth][Orange Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Purple Mum][Purple Mum] |
-|  1   |  2   |  1   | ![Orange Rose][Orange Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Rose][Yellow Rose] | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Orange Cosmos][Orange Cosmos] | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Purple Mum][Purple Mum] |
-|  1   |  2   |  2   |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   |  ![White Rose][White Rose]  | ![Yellow Tulip][Yellow Tulip] | ![Yellow Pansy][Yellow Pansy] | ![Orange Cosmos][Orange Cosmos] | ![Yellow Lily][Yellow Lily] | ![Yellow Hyacinth][Yellow Hyacinth] | ![Orange Windflower][Orange Windflower] | ![Purple Mum][Purple Mum] |
-|  2   |  0   |  0   |  ![Black Rose][Black Rose]  |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   |  ![Black Tulip][Black Tulip]  |    ![Red Pansy][Red Pansy]    |    ![Red Cosmos][Red Cosmos]    |  ![Black Lily][Black Lily]  |    ![Red Hyacinth][Red Hyacinth]    |    ![Red Windflower][Red Windflower]    |    ![Red Mum][Red Mum]    |
-|  2   |  0   |  1   |  ![Black Rose][Black Rose]  |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   |    ![Red Tulip][Red Tulip]    |    ![Red Pansy][Red Pansy]    |    ![Red Cosmos][Red Cosmos]    |    ![Red Lily][Red Lily]    |    ![Red Hyacinth][Red Hyacinth]    |    ![Red Windflower][Red Windflower]    |    ![Red Mum][Red Mum]    |
-|  2   |  0   |  2   |  ![Black Rose][Black Rose]  |    ![Red Rose][Red Rose]    |   ![Pink Rose][Pink Rose]   |    ![Red Tulip][Red Tulip]    | ![Purple Pansy][Purple Pansy] |    ![Red Cosmos][Red Cosmos]    |   ![Pink Lily][Pink Lily]   |    ![Red Hyacinth][Red Hyacinth]    | ![Purple Windflower][Purple Windflower] |    ![Red Mum][Red Mum]    |
-|  2   |  1   |  0   | ![Orange Rose][Orange Rose] | ![Orange Rose][Orange Rose] | ![Yellow Rose][Yellow Rose] |  ![Black Tulip][Black Tulip]  |    ![Red Pansy][Red Pansy]    | ![Orange Cosmos][Orange Cosmos] |  ![Black Lily][Black Lily]  |   ![Blue Hyacinth][Blue Hyacinth]   |    ![Red Windflower][Red Windflower]    | ![Purple Mum][Purple Mum] |
-|  2   |  1   |  1   |    ![Red Rose][Red Rose]    |    ![Red Rose][Red Rose]    |  ![White Rose][White Rose]  |    ![Red Tulip][Red Tulip]    |    ![Red Pansy][Red Pansy]    | ![Orange Cosmos][Orange Cosmos] |    ![Red Lily][Red Lily]    |    ![Red Hyacinth][Red Hyacinth]    |    ![Red Windflower][Red Windflower]    | ![Purple Mum][Purple Mum] |
-|  2   |  1   |  2   |  ![Black Rose][Black Rose]  |    ![Red Rose][Red Rose]    | ![Purple Rose][Purple Rose] |    ![Red Tulip][Red Tulip]    | ![Purple Pansy][Purple Pansy] |    ![Red Cosmos][Red Cosmos]    |   ![Pink Lily][Pink Lily]   |    ![Red Hyacinth][Red Hyacinth]    | ![Purple Windflower][Purple Windflower] |    ![Red Mum][Red Mum]    |
-|  2   |  2   |  0   | ![Orange Rose][Orange Rose] | ![Orange Rose][Orange Rose] | ![Yellow Rose][Yellow Rose] | ![Purple Tulip][Purple Tulip] | ![Orange Pansy][Orange Pansy] |  ![Black Cosmos][Black Cosmos]  | ![Orange Lily][Orange Lily] | ![Purple Hyacinth][Purple Hyacinth] |   ![Pink Windflower][Pink Windflower]   |  ![Green Mum][Green Mum]  |
-|  2   |  2   |  1   | ![Orange Rose][Orange Rose] | ![Orange Rose][Orange Rose] | ![Yellow Rose][Yellow Rose] | ![Purple Tulip][Purple Tulip] | ![Orange Pansy][Orange Pansy] |  ![Black Cosmos][Black Cosmos]  | ![Orange Lily][Orange Lily] | ![Purple Hyacinth][Purple Hyacinth] |   ![Pink Windflower][Pink Windflower]   |  ![Green Mum][Green Mum]  |
-|  2   |  2   |  2   |   ![Blue Rose][Blue Rose]   |    ![Red Rose][Red Rose]    |  ![White Rose][White Rose]  | ![Purple Tulip][Purple Tulip] | ![Purple Pansy][Purple Pansy] |    ![Red Cosmos][Red Cosmos]    |  ![White Lily][White Lily]  | ![Purple Hyacinth][Purple Hyacinth] | ![Purple Windflower][Purple Windflower] |    ![Red Mum][Red Mum]    |
+|  0   |  0   |  0   |  ![WR][WR]  |  ![WR][WR]  |  ![WR][WR]  |  ![WT][WT]  |  ![WP][WP]  |  ![WCosmos][WCosmos]  |  ![WLily][WLily]  |  ![WH][WH]  |  ![WW][WW]  |  ![WM][WM]  |
+|  0   |  0   |  1   |  ![WR][WR]  |  ![WR][WR]  |  ![WR][WR]  |  ![WT][WT]  |  ![WP][WP]  |  ![WCosmos][WCosmos]  |  ![WLily][WLily]  |  ![WH][WH]  |  ![WW][WW]  |  ![WM][WM]  |
+|  0   |  0   |  2   | ![LR][LR] | ![LR][LR] | ![LR][LR] |  ![WT][WT]  |   ![UP][UP]   |  ![WCosmos][WCosmos]  |  ![WLily][WLily]  |   ![UH][UH]   |   ![UW][UW]   | ![LM][LM] |
+|  0   |  1   |  0   | ![YR][YR] | ![YR][YR] | ![YR][YR] | ![YT][YT] | ![YP][YP] | ![YCosmos][YCosmos] | ![YLily][YLily] | ![YH][YH] | ![OW][OW] | ![YM][YM] |
+|  0   |  1   |  1   |  ![WR][WR]  |  ![WR][WR]  |  ![WR][WR]  | ![YT][YT] | ![YP][YP] | ![YCosmos][YCosmos] |  ![WLily][WLily]  | ![YH][YH] | ![OW][OW] | ![YM][YM] |
+|  0   |  1   |  2   | ![LR][LR] | ![LR][LR] | ![LR][LR] |  ![WT][WT]  |   ![UP][UP]   |  ![WCosmos][WCosmos]  |  ![WLily][WLily]  |  ![WH][WH]  |   ![UW][UW]   |  ![WM][WM]  |
+|  0   |  2   |  0   | ![YR][YR] | ![YR][YR] | ![YR][YR] | ![YT][YT] | ![YP][YP] | ![YCosmos][YCosmos] | ![YLily][YLily] | ![YH][YH] | ![OW][OW] | ![YM][YM] |
+|  0   |  2   |  1   | ![YR][YR] | ![YR][YR] | ![YR][YR] | ![YT][YT] | ![YP][YP] | ![YCosmos][YCosmos] | ![YLily][YLily] | ![YH][YH] | ![OW][OW] | ![YM][YM] |
+|  0   |  2   |  2   |  ![WR][WR]  |  ![WR][WR]  |  ![WR][WR]  | ![YT][YT] | ![YP][YP] | ![YCosmos][YCosmos] |  ![WLily][WLily]  | ![YH][YH] | ![OW][OW] | ![YM][YM] |
+|  1   |  0   |  0   |    ![RR][RR]    |   ![PR][PR]   |  ![WR][WR]  |    ![RT][RT]    |    ![RP][RP]    |   ![PCosmos][PCosmos]   |    ![RLily][RLily]    |    ![RH][RH]    |    ![RW][RW]    |   ![PM][PM]   |
+|  1   |  0   |  1   |    ![RR][RR]    |   ![PR][PR]   |  ![WR][WR]  |   ![PT][PT]   |    ![RP][RP]    |   ![PCosmos][PCosmos]   |   ![PLily][PLily]   |   ![PH][PH]   |    ![RW][RW]    |   ![PM][PM]   |
+|  1   |  0   |  2   |    ![RR][RR]    |   ![PR][PR]   | ![LR][LR] |  ![WT][WT]  |   ![UP][UP]   |   ![PCosmos][PCosmos]   |  ![WLily][WLily]  |  ![WH][WH]  |   ![UW][UW]   |   ![PM][PM]   |
+|  1   |  1   |  0   | ![OR][OR] | ![YR][YR] | ![YR][YR] | ![OT][OT] | ![OP][OP] | ![OCosmos][OCosmos] | ![OLily][OLily] | ![OH][OH] |   ![PW][PW]   | ![YM][YM] |
+|  1   |  1   |  1   |    ![RR][RR]    |   ![PR][PR]   |  ![WR][WR]  | ![YT][YT] | ![OP][OP] | ![OCosmos][OCosmos] | ![YLily][YLily] | ![YH][YH] |   ![PW][PW]   |    ![RM][RM]    |
+|  1   |  1   |  2   |    ![RR][RR]    |   ![PR][PR]   | ![LR][LR] | ![YT][YT] | ![OP][OP] |   ![PCosmos][PCosmos]   | ![YLily][YLily] | ![YH][YH] |   ![PW][PW]   |   ![PM][PM]   |
+|  1   |  2   |  0   | ![OR][OR] | ![YR][YR] | ![YR][YR] | ![OT][OT] | ![YP][YP] | ![OCosmos][OCosmos] | ![OLily][OLily] | ![OH][OH] | ![OW][OW] | ![LM][LM] |
+|  1   |  2   |  1   | ![OR][OR] | ![YR][YR] | ![YR][YR] | ![YT][YT] | ![YP][YP] | ![OCosmos][OCosmos] | ![YLily][YLily] | ![YH][YH] | ![OW][OW] | ![LM][LM] |
+|  1   |  2   |  2   |    ![RR][RR]    |   ![PR][PR]   |  ![WR][WR]  | ![YT][YT] | ![YP][YP] | ![OCosmos][OCosmos] | ![YLily][YLily] | ![YH][YH] | ![OW][OW] | ![LM][LM] |
+|  2   |  0   |  0   |  ![BR][BR]  |    ![RR][RR]    |   ![PR][PR]   |  ![BT][BT]  |    ![RP][RP]    |    ![RCosmos][RCosmos]    |  ![BLily][BLily]  |    ![RH][RH]    |    ![RW][RW]    |    ![RM][RM]    |
+|  2   |  0   |  1   |  ![BR][BR]  |    ![RR][RR]    |   ![PR][PR]   |    ![RT][RT]    |    ![RP][RP]    |    ![RCosmos][RCosmos]    |    ![RLily][RLily]    |    ![RH][RH]    |    ![RW][RW]    |    ![RM][RM]    |
+|  2   |  0   |  2   |  ![BR][BR]  |    ![RR][RR]    |   ![PR][PR]   |    ![RT][RT]    | ![LP][LP] |    ![RCosmos][RCosmos]    |   ![PLily][PLily]   |    ![RH][RH]    | ![LW][LW] |    ![RM][RM]    |
+|  2   |  1   |  0   | ![OR][OR] | ![OR][OR] | ![YR][YR] |  ![BT][BT]  |    ![RP][RP]    | ![OCosmos][OCosmos] |  ![BLily][BLily]  |   ![UH][UH]   |    ![RW][RW]    | ![LM][LM] |
+|  2   |  1   |  1   |    ![RR][RR]    |    ![RR][RR]    |  ![WR][WR]  |    ![RT][RT]    |    ![RP][RP]    | ![OCosmos][OCosmos] |    ![RLily][RLily]    |    ![RH][RH]    |    ![RW][RW]    | ![LM][LM] |
+|  2   |  1   |  2   |  ![BR][BR]  |    ![RR][RR]    | ![LR][LR] |    ![RT][RT]    | ![LP][LP] |    ![RCosmos][RCosmos]    |   ![PLily][PLily]   |    ![RH][RH]    | ![LW][LW] |    ![RM][RM]    |
+|  2   |  2   |  0   | ![OR][OR] | ![OR][OR] | ![YR][YR] | ![LT][LT] | ![OP][OP] |  ![BCosmos][BCosmos]  | ![OLily][OLily] | ![LH][LH] |   ![PW][PW]   |  ![GM][GM]  |
+|  2   |  2   |  1   | ![OR][OR] | ![OR][OR] | ![YR][YR] | ![LT][LT] | ![OP][OP] |  ![BCosmos][BCosmos]  | ![OLily][OLily] | ![LH][LH] |   ![PW][PW]   |  ![GM][GM]  |
+|  2   |  2   |  2   |   ![UR][UR]   |    ![RR][RR]    |  ![WR][WR]  | ![LT][LT] | ![LP][LP] |    ![RCosmos][RCosmos]    |  ![WLily][WLily]  | ![LH][LH] | ![LW][LW] |    ![RM][RM]    |
 
-[White Rose]: https://i.imgur.com/Xacr6JK.png
-[Red Rose]: https://i.imgur.com/WNw4bsy.png
-[Yellow Rose]: https://i.imgur.com/syp5DZO.png
-[Pink Rose]: https://i.imgur.com/vtLJ18p.png
-[Orange Rose]: https://i.imgur.com/AY4AS3v.png
-[Purple Rose]: https://i.imgur.com/HRDqqUF.png
-[Black Rose]: https://i.imgur.com/YnAFSip.png
-[Blue Rose]: https://i.imgur.com/ShPNLUc.png
+[WR]: https://i.imgur.com/Xacr6JK.png "White Rose"
+[RR]: https://i.imgur.com/WNw4bsy.png "Red Rose"
+[YR]: https://i.imgur.com/syp5DZO.png "Yellow Rose"
+[PR]: https://i.imgur.com/vtLJ18p.png "Pink Rose"
+[OR]: https://i.imgur.com/AY4AS3v.png "Orange Rose"
+[LR]: https://i.imgur.com/HRDqqUF.png "Purple Rose"
+[BR]: https://i.imgur.com/YnAFSip.png "Black Rose"
+[UR]: https://i.imgur.com/ShPNLUc.png "Blue Rose"
 
-[White Tulip]: https://i.imgur.com/icXqqff.png
-[Red Tulip]: https://i.imgur.com/FocWneF.png
-[Yellow Tulip]: https://i.imgur.com/XYoBPHj.png
-[Pink Tulip]: https://i.imgur.com/BcQPAVM.png
-[Orange Tulip]: https://i.imgur.com/Qe1zJRf.png
-[Purple Tulip]: https://i.imgur.com/2Nn2I32.png
-[Black Tulip]: https://i.imgur.com/swxLB2t.png
+[WT]: https://i.imgur.com/icXqqff.png "White Tulip"
+[RT]: https://i.imgur.com/FocWneF.png "Red Tulip"
+[YT]: https://i.imgur.com/XYoBPHj.png "Yellow Tulip"
+[PT]: https://i.imgur.com/BcQPAVM.png "Pink Tulip"
+[OT]: https://i.imgur.com/Qe1zJRf.png "Orange Tulip"
+[LT]: https://i.imgur.com/2Nn2I32.png "Purple Tulip"
+[BT]: https://i.imgur.com/swxLB2t.png "Black Tulip"
 
-[White Pansy]: https://i.imgur.com/WbH1f0y.png
-[Red Pansy]: https://i.imgur.com/P87wzUX.png
-[Yellow Pansy]: https://i.imgur.com/Brr59Np.png
-[Orange Pansy]: https://i.imgur.com/pql7Ur4.png
-[Purple Pansy]: https://i.imgur.com/apel9uO.png
-[Blue Pansy]: https://i.imgur.com/qstosOC.png
+[WP]: https://i.imgur.com/WbH1f0y.png "White Pansy"
+[RP]: https://i.imgur.com/P87wzUX.png "Red Pansy"
+[YP]: https://i.imgur.com/Brr59Np.png "Yellow Pansy"
+[OP]: https://i.imgur.com/pql7Ur4.png "Orange Pansy"
+[LP]: https://i.imgur.com/apel9uO.png "Purple Pansy"
+[UP]: https://i.imgur.com/qstosOC.png "Blue Pansy"
 
-[Red Cosmos]: https://i.imgur.com/bZOJNuX.png
-[White Cosmos]: https://i.imgur.com/owY9Ipz.png
-[Yellow Cosmos]: https://i.imgur.com/FW4GIKj.png
-[Black Cosmos]: https://i.imgur.com/FHppj6Z.png
-[Orange Cosmos]: https://i.imgur.com/bQLcOFo.png
-[Pink Cosmos]: https://i.imgur.com/hNIl1Mu.png
+[RCosmos]: https://i.imgur.com/bZOJNuX.png "Red Cosmos"
+[WCosmos]: https://i.imgur.com/owY9Ipz.png "White Cosmos"
+[YCosmos]: https://i.imgur.com/FW4GIKj.png "Yellow Cosmos"
+[BCosmos]: https://i.imgur.com/FHppj6Z.png "Black Cosmos"
+[OCosmos]: https://i.imgur.com/bQLcOFo.png "Orange Cosmos"
+[PCosmos]: https://i.imgur.com/hNIl1Mu.png "Pink Cosmos"
 
-[White Lily]: https://i.imgur.com/PbIoBfx.png
-[Red Lily]: https://i.imgur.com/FKRfD2m.png
-[Yellow Lily]: https://i.imgur.com/Pg2UA6D.png
-[Pink Lily]: https://i.imgur.com/jfQO7hl.png
-[Orange Lily]: https://i.imgur.com/rWQgZX0.png
-[Black Lily]: https://i.imgur.com/3YBcBum.png
+[WLily]: https://i.imgur.com/PbIoBfx.png "White Lily"
+[RLily]: https://i.imgur.com/FKRfD2m.png "Red Lily"
+[YLily]: https://i.imgur.com/Pg2UA6D.png "Yellow Lily"
+[PLily]: https://i.imgur.com/jfQO7hl.png "Pink Lily"
+[OLily]: https://i.imgur.com/rWQgZX0.png "Orange Lily"
+[BLily]: https://i.imgur.com/3YBcBum.png "Black Lily"
 
-[Red Hyacinth]: https://i.imgur.com/z4Slfi6.png
-[White Hyacinth]: https://i.imgur.com/DfQ6XxZ.png
-[Yellow Hyacinth]: https://i.imgur.com/fqKtiIj.png
-[Purple Hyacinth]: https://i.imgur.com/JWy8MxJ.png
-[Orange Hyacinth]: https://i.imgur.com/S8l1iXY.png
-[Pink Hyacinth]: https://i.imgur.com/HbIWR5v.png
-[Blue Hyacinth]: https://i.imgur.com/hAMbFoT.png
+[RH]: https://i.imgur.com/z4Slfi6.png "Red Hyacinth"
+[WH]: https://i.imgur.com/DfQ6XxZ.png "White Hyacinth"
+[YH]: https://i.imgur.com/fqKtiIj.png "Yellow Hyacinth"
+[LH]: https://i.imgur.com/JWy8MxJ.png "Purple Hyacinth"
+[OH]: https://i.imgur.com/S8l1iXY.png "Orange Hyacinth"
+[PH]: https://i.imgur.com/HbIWR5v.png "Pink Hyacinth"
+[UH]: https://i.imgur.com/hAMbFoT.png "Blue Hyacinth"
 
-[Red Windflower]: https://i.imgur.com/ZEV3HiA.png
-[White Windflower]: https://i.imgur.com/LUkHAFI.png
-[Blue Windflower]: https://i.imgur.com/enSgApS.png
-[Purple Windflower]: https://i.imgur.com/QjSnAoQ.png
-[Pink Windflower]: https://i.imgur.com/sM4KZfQ.png
-[Orange Windflower]: https://i.imgur.com/x6NVTdz.png
+[RW]: https://i.imgur.com/ZEV3HiA.png "Red Windflower"
+[WW]: https://i.imgur.com/LUkHAFI.png "White Windflower"
+[UW]: https://i.imgur.com/enSgApS.png "Blue Windflower"
+[LW]: https://i.imgur.com/QjSnAoQ.png "Purple Windflower"
+[PW]: https://i.imgur.com/sM4KZfQ.png "Pink Windflower"
+[OW]: https://i.imgur.com/x6NVTdz.png "Orange Windflower"
 
-[Red Mum]: https://i.imgur.com/3MOgmO5.png
-[White Mum]: https://i.imgur.com/zAYqa1u.png
-[Yellow Mum]: https://i.imgur.com/jstJuSE.png
-[Purple Mum]: https://i.imgur.com/C3s80Mc.png
-[Pink Mum]: https://i.imgur.com/vbu5rmI.png
-[Green Mum]: https://i.imgur.com/a9V82Ao.png
+[RM]: https://i.imgur.com/3MOgmO5.png "Red Mum"
+[WM]: https://i.imgur.com/zAYqa1u.png "White Mum"
+[YM]: https://i.imgur.com/jstJuSE.png "Yellow Mum"
+[LM]: https://i.imgur.com/C3s80Mc.png "Purple Mum"
+[PM]: https://i.imgur.com/vbu5rmI.png "Pink Mum"
+[GM]: https://i.imgur.com/a9V82Ao.png "Green Mum"
