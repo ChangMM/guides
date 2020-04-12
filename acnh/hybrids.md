@@ -44,7 +44,7 @@ While breeding Oranges `ry` together to produce Purple, add new Oranges together
 | ![][WP]<br/>\[w] | ![][WP]<br/>\[w] | ![][UP]<br/>W  |  1/4   |
 | ![][YP]<br/>\[Y] | ![][RP]<br/>\[R] | ![][OP]<br/>ry |  100%  |
 |  ![][UP]<br/>W   | ![][RP]<br/>\[R] | ![][RP]<br/>rw |  100%  |
-|  ![][UP]<br/>W   |  ![][RP]<br/>rw  | ![][LP]<br/>RW |  1/16  |
+|  ![][RP]<br/>rw  |  ![][RP]<br/>rw  | ![][LP]<br/>RW |  1/16  |
 
 ### Cosmos
 
