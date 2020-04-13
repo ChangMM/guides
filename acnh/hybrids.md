@@ -126,7 +126,7 @@ While breeding Yellows `ry` together to produce Green, combine new Purples in an
 
 ## Links
 
-[Flower Heredity Datamine Spreadsheet](https://docs.google.com/spreadsheets/d/1rbYbQ0i3SuTu30KTma5dO4uuJWr_SjOZXA1l4UOIHWo/edit#gid=528655130) (includes breeding calculator)
+[Flower Research Spreadsheet](https://docs.google.com/spreadsheets/d/1rbYbQ0i3SuTu30KTma5dO4uuJWr_SjOZXA1l4UOIHWo/edit#gid=528655130) (includes breeding calculator)
 
 [Paleh's Flower Genetics Guide](https://bit.ly/348DAmJ)
 
@@ -143,6 +143,7 @@ While breeding Yellows `ry` together to produce Green, combine new Purples in an
 ## Contact
 
 Aeter (Orpheus#9823)
+[Twitter](https://twitter.com/aiterusawato)
 
 
 
