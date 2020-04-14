@@ -25,7 +25,7 @@
 
 ## Roses
 
-|       Parent       |       Parent       |       Offspring       |     Chance      |
+|       Parent       |       Parent       |       Offspring       |      Odds       |
 | :----------------: | :----------------: | :-------------------: | :-------------: |
 | ![][WR] <br/>\[w]  | ![][WR] <br/>\[w]  |    ![][LR] <br/>W     |       25%       |
 | ![][WR] <br/>\[w]  | ![][RR] <br/>\[Rb] | ![][PR] <br/>rb / rwb | 25% + 25% = 50% |
@@ -38,7 +38,7 @@
 
 ## Tulips
 
-|       Parent       |       Parent       |      Offspring      |   Chance    |
+|       Parent       |       Parent       |      Offspring      |    Odds     |
 | :----------------: | :----------------: | :-----------------: | :---------: |
 | ![][WT] <br/>\[w]  | ![][RT] <br/>\[Rw] |   ![][PT] <br/>rw   |     50%     |
 |  ![][YT]<br/>\[Y]  | ![][RT] <br/>\[Rw] |   ![][OT]<br/>ry    |     50%     |
@@ -53,19 +53,19 @@ While breeding Oranges `ry` together to produce Purple, add new Oranges together
 
 ### Pansies
 
-|      Parent      |      Parent      |   Offspring    | Chance |
-| :--------------: | :--------------: | :------------: | :----: |
-| ![][WP]<br/>\[w] | ![][WP]<br/>\[w] | ![][UP]<br/>W  |  25%   |
-| ![][YP]<br/>\[Y] | ![][RP]<br/>\[R] | ![][OP]<br/>ry |  100%  |
-|  ![][UP]<br/>W   | ![][RP]<br/>\[R] | ![][RP]<br/>rw |  100%  |
-|  ![][RP]<br/>rw  |  ![][RP]<br/>rw  | ![][LP]<br/>RW | 6.25%  |
+|      Parent      |      Parent      |   Offspring    | Odds  |
+| :--------------: | :--------------: | :------------: | :---: |
+| ![][WP]<br/>\[w] | ![][WP]<br/>\[w] | ![][UP]<br/>W  |  25%  |
+| ![][YP]<br/>\[Y] | ![][RP]<br/>\[R] | ![][OP]<br/>ry | 100%  |
+|  ![][UP]<br/>W   | ![][RP]<br/>\[R] | ![][RP]<br/>rw | 100%  |
+|  ![][RP]<br/>rw  |  ![][RP]<br/>rw  | ![][LP]<br/>RW | 6.25% |
 
 ### Cosmos
 
-|      Parent       |      Parent      |      Offspring       |           Chance           |
+|      Parent       |      Parent      |      Offspring       |            Odds            |
 | :---------------: | :--------------: | :------------------: | :------------------------: |
 | ![][WC]<br/>\[w]  | ![][RC]<br/>\[R] |  ![][PC]<br/>r / rw  |      50% + 50% = 100%      |
-| ![][YC]<br/>\[Yw] | ![][RC]<br/>\[R] | ![][OC]<br/>ry / ryw |      1/2 + 1/2 = 100%      |
+| ![][YC]<br/>\[Yw] | ![][RC]<br/>\[R] | ![][OC]<br/>ry / ryw |      50% + 50% = 100%      |
 |  ![][OC]<br/>ry   |  ![][OC]<br/>ry  |    ![][BC]<br/>RY    |           6.25%            |
 |  ![][OC]<br/>ry   | ![][OC]<br/>ryw  | ![][BC]<br/>RY / RYw |  3.125% + 3.125% = 6.25%   |
 |  ![][OC]<br/>ryw  | ![][OC]<br/>ryw  | ![][BC]<br/>RY / RYw | 1.5625% + 3.125% = 4.6875% |
@@ -74,18 +74,18 @@ While breeding Oranges `ry` together to produce Purple, add new Oranges together
 
 ### Lilies
 
-|      Parent       |      Parent       |   Offspring    | Chance |
-| :---------------: | :---------------: | :------------: | :----: |
-| ![][WL]<br/>\[w]  | ![][RL]<br/>\[Rw] | ![][PL]<br/>rw |  50%   |
-| ![][YL]<br/>\[Y]  | ![][RL]<br/>\[Rw] | ![][OL]<br/>ry |  50%   |
-| ![][RL]<br/>\[Rw] | ![][RL]<br/>\[Rw] | ![][PL]<br/>RW |  25%   |
-| ![][RL]<br/>\[Rw] | ![][RL]<br/>\[Rw] | ![][BL]<br/>RW |  25%   |
+|      Parent       |      Parent       |   Offspring    | Odds |
+| :---------------: | :---------------: | :------------: | :--: |
+| ![][WL]<br/>\[w]  | ![][RL]<br/>\[Rw] | ![][PL]<br/>rw | 50%  |
+| ![][YL]<br/>\[Y]  | ![][RL]<br/>\[Rw] | ![][OL]<br/>ry | 50%  |
+| ![][RL]<br/>\[Rw] | ![][RL]<br/>\[Rw] | ![][PL]<br/>RW | 25%  |
+| ![][RL]<br/>\[Rw] | ![][RL]<br/>\[Rw] | ![][BL]<br/>RW | 25%  |
 
 > Breeding Reds `[Rw]` together can produce both Pink and Black.
 
 ### Hyacinths
 
-|      Parent      |      Parent       |      Offspring      |   Chance    |
+|      Parent      |      Parent       |      Offspring      |    Odds     |
 | :--------------: | :---------------: | :-----------------: | :---------: |
 | ![][WH]<br/>\[w] | ![][WH]<br/>\[w]  |    ![][UH]<br/>W    |     25%     |
 | ![][WH]<br/>\[w] | ![][RH]<br/>\[Rw] |   ![][PH]<br/>rw    |     50%     |
@@ -101,19 +101,19 @@ While breeding Oranges `ry` together to produce Purple, combine new Oranges and 
 
 ### Windflowers
 
-|      Parent      |      Parent      |   Offspring    | Chance |
-| :--------------: | :--------------: | :------------: | :----: |
-| ![][WW]<br/>\[w] | ![][WW]<br/>\[w] | ![][UW]<br/>W  |  25%   |
-| ![][OW]<br/>\[Y] | ![][RW]<br/>\[R] | ![][PW]<br/>ry |  100%  |
-| ![][RW]<br/>\[R] |  ![][UW]<br/>W   | ![][RW]<br/>rw |  100%  |
-|  ![][RW]<br/>rw  |  ![][RW]<br/>rw  | ![][LW]<br/>RW | 6.25%  |
+|      Parent      |      Parent      |   Offspring    | Odds  |
+| :--------------: | :--------------: | :------------: | :---: |
+| ![][WW]<br/>\[w] | ![][WW]<br/>\[w] | ![][UW]<br/>W  |  25%  |
+| ![][OW]<br/>\[Y] | ![][RW]<br/>\[R] | ![][PW]<br/>ry | 100%  |
+| ![][RW]<br/>\[R] |  ![][UW]<br/>W   | ![][RW]<br/>rw | 100%  |
+|  ![][RW]<br/>rw  |  ![][RW]<br/>rw  | ![][LW]<br/>RW | 6.25% |
 
 ### Mums
 
-|       Parent        |       Parent        |      Offspring      |       Chance        |
+|       Parent        |       Parent        |      Offspring      |        Odds         |
 | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
 |  ![][WM]<br/>\[w]   |  ![][WM]<br/>\[w]   |    ![][LM]<br/>W    |         25%         |
-|  ![][WM]<br/>\[w]   |  ![][RM]<br/>\[R]   |   ![][PM]<br/>rw    |        100%         |
+|  ![][WM]<br/>\[w]   |  ![][RM]<br/>\[R]   | ![][PM]<br/>r / rw  |  50% + 50% = 100%   |
 |    ![][LM]<br/>W    |  ![][RM]<br/>\[R]   |   ![][PM]<br/>rw    |        100%         |
 |  ![][YM]<br/>\[Y]   |  ![][RM]<br/>\[R]   |   ![][YM]<br/>ry    |        100%         |
 |   ![][YM]<br/>ry    |   ![][YM]<br/>ry    |   ![][GM]<br/>RY    |        6.25%        |
