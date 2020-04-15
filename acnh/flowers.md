@@ -1,8 +1,8 @@
-# Flower Heredity in ACNH
+# Flower Mechanics
 
-## Flower Types
+## Flower Species
 
-There are 8 different flower types, coming in 9 different colors.
+Flowers come in 8 different species and 9 different colors.
 
 | Type       |                            Red                             |               Yellow                |                 White                 |                Pink                 |                 Orange                  |                 Purple                  |             Black             |                Blue                 |          Green          |
 | ---------- | :--------------------------------------------------------: | :---------------------------------: | :-----------------------------------: | :---------------------------------: | :-------------------------------------: | :-------------------------------------: | :---------------------------: | :---------------------------------: | :---------------------: |
@@ -15,36 +15,50 @@ There are 8 different flower types, coming in 9 different colors.
 | Windflower |             ![RW][RW]              |                  X                  | ![WW][WW] | ![PW][PW] | ![OW][OW] | ![LW][LW] |               X               | ![UW][UW] |            X            |
 | Mum        |                    ![RM][RM]                     |      ![YM][YM]      |        ![WM][WM]        |        ![PM][PM]        |                    X                    |        ![LM][LM]        |               X               |                  X                  | ![GM][GM] |
 
+## Flower Flags
+
+Flags are hidden information attached to an item. For flowers, those flags hold various information about the flower's state, as well as its genes.
+
 ## Flower Genes
 
-Genes are hidden values attached to each flower, which determine their actual color.
+A flower's phenotype (its color) is determined by its genotype (its genes). Genes are hidden values attached to each flower. There is no way to check a flower's genes in the game.
 
-### Gene Types
+### Genes
 
-There are 4 different genes.
+Genotypes are coded on 4 distinct genes. Roses use all 4 genes, while other flower species use only 3. Genes have been given an unofficial name and code in order to make communication and notation easier.
 
-Roses use all 4 genes, while other flower types use only 3.
+| Gene Number | Gene Name            | Genetic Code | Effect                                                       |
+| ----------- | -------------------- | ------------ | ------------------------------------------------------------ |
+| Gene 1      | Red                  | R            | Generally affects the flower's red color level               |
+| Gene 2      | Yellow               | Y            | Generally affects the flower's yellow color level            |
+| Gene 3      | White                | W            | Generally affects the flower's white color level             |
+| Gene 4      | Brightness<br/>Shade | B<br>S       | Roses only<br />Generally affects the flower's red color brightness |
 
-| Gene Code | Gene Name  | Effect                                                    |
-| --------- | ---------- | --------------------------------------------------------- |
-| R         | Red        | Affects the flower's red color level                      |
-| Y         | Yellow     | Affects the flower's yellow color level                   |
-| W         | White      | Affects the flower's white color level                    |
-| B         | Brightness | Roses only<br />Affects the flower's red color brightness |
+Each individual gene can have 3 different values. Broadly speaking, that value determines how much the flower's phenotype is impacted by the corresponding gene.
 
-### Gene Values
+| Gene Value | Genetic Notation | Binary Notation (ACNL) | Gene Effect |
+| ---------- | ---------------- | ---------------------- | ----------- |
+| 0          | xx               | 00                     | None        |
+| 1          | Xx               | 01                     | Low         |
+| 2          | XX               | 11                     | High        |
 
-Each individual gene can have 3 different values.
+Different ways of representing the genotype exist in the community.
 
-| Genetic Value | Numeric Value | Gene Effect |
-| ------------- | ------------- | ----------- |
-| xx            | 0             | None        |
-| Xx            | 1             | Low         |
-| XX            | 2             | High        |
+It is currently unknown if the generated flag for genotype is encoded in ACNH the same way it was in ACNL. For this reason, I prefer keeping using the datamined representation of trinary digits.
 
-### Gene Combinations
+Here are different representations of the Seed Red Rose.
 
-There are 81 different possible combinations for Roses, and 27 for other flower types.
+| Data    | Binary Notation (ACNL) | Genetic Notation | Compacted Genetic Notation |
+| ------- | ---------------------- | ---------------- | -------------------------- |
+| 2 0 0 1 | 11 00 00 01            | RR yy ww Bb      | Rb                         |
+
+Note that Gene 3 (White, W) is sometimes inverted in genetic notation, notably by Paleh.
+
+### Genotypes
+
+Roses have 81 possible genotypes, other flower species have 27.
+
+This table shows all the 270 different possible flowers.
 
 |  R   |  Y   |  W   |           Rose B0           |           Rose B1           |           Rose B2           |             Tulip             |             Pansy             |             Cosmos              |            Lily             |              Hyacinth               |               Windflower                |            Mum            |
 | :--: | :--: | :--: | :-------------------------: | :-------------------------: | :-------------------------: | :---------------------------: | :---------------------------: | :-----------------------------: | :-------------------------: | :---------------------------------: | :-------------------------------------: | :-----------------------: |
@@ -75,6 +89,14 @@ There are 81 different possible combinations for Roses, and 27 for other flower 
 |  2   |  2   |  0   | ![OR][OR] | ![OR][OR] | ![YR][YR] | ![LT][LT] | ![OP][OP] |  ![BCosmos][BCosmos]  | ![OLily][OLily] | ![LH][LH] |   ![PW][PW]   |  ![GM][GM]  |
 |  2   |  2   |  1   | ![OR][OR] | ![OR][OR] | ![YR][YR] | ![LT][LT] | ![OP][OP] |  ![BCosmos][BCosmos]  | ![OLily][OLily] | ![LH][LH] |   ![PW][PW]   |  ![GM][GM]  |
 |  2   |  2   |  2   |   ![UR][UR]   |    ![RR][RR]    |  ![WR][WR]  | ![LT][LT] | ![LP][LP] |    ![RCosmos][RCosmos]    |  ![WLily][WLily]  | ![LH][LH] | ![LW][LW] |    ![RM][RM]    |
+
+
+
+
+
+
+
+
 
 [WR]: https://i.imgur.com/Xacr6JK.png "White Rose"
 [RR]: https://i.imgur.com/WNw4bsy.png "Red Rose"
