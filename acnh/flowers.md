@@ -102,17 +102,17 @@ Possible outcomes for the offspring gene may be represented by a simple diagram 
 
 Imagine breeding two flowers A and B.
 
-1. A's Gene 1 is `RR`. Its alleles for this gene are `R`and `r`.
-2. B's Gene 1 is `Rr`. Its alleles for this gene are `R` and `R`.
-3. Offspring's Gene 1 will take one allele from A (`R` or `r`) and one allele from B (`R`).
+1. A's Gene 1 is `RR`. Its alleles for this gene are `R`and `R`.
+2. B's Gene 1 is `Rr`. Its alleles for this gene are `R` and `r`.
+3. Offspring's Gene 1 will take one allele from A (`R`) and one allele from B (`R` or `r`).
 4. Offspring's Gene 1 will be `RR` or `Rr`
 
 Here is the corresponding Punnett Square for Gene 1.
 
-|      | `R`  | `r`  |
+|      | `R`  | `R`  |
 | ---- | ---- | ---- |
-| `R`  | `RR` | `Rr` |
-| `R`  | `RR` | `Rr` |
+| `R`  | `RR` | `RR` |
+| `r`  | `Rr` | `Rr` |
 
 > Note that `rR` is always noted `Rr` since those are equivalents.
 
