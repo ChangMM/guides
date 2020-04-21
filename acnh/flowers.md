@@ -1,8 +1,8 @@
 # Flower Mechanics
 
-## Flower Species
+## 花卉种类
 
-Flowers come in 8 different species and 9 different colors. Not all species are available in all colors.
+无人岛上共有 8 种不同的花，以及 9 种不同的花色。但不是所有的花都有9中颜色。
 
 | 花色       |    红    |  黄  |   白   |   粉    |  橙   |  紫   |   黑   |   蓝    |   绿   |
 | ---------- | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
@@ -21,20 +21,20 @@ Flowers come in 8 different species and 9 different colors. Not all species are 
 
 Flags are hidden information attached to an item. For flowers, those flags hold various information about the flower's state, as well as its genes.
 
-## Flower Genes
+## 花的基因
 
-A flower's phenotype (its color) is determined by its genotype (its genes). Genes are hidden values attached to each flower. There is no way to check a flower's genes in the game.
+花的表型（颜色）由其基因型（基因）决定。 基因是附着在每朵花上的隐藏值。 在游戏中无法检查花朵的基因。
 
 ### Genes
 
 Genotypes are coded on 4 distinct genes. Roses use all 4 genes, while other flower species use only 3. Genes have been given an unofficial name and code in order to make communication and notation easier.
 
-| Gene Number | Gene Name            | Genetic Code | Effect                                                       |
-| ----------- | -------------------- | ------------ | ------------------------------------------------------------ |
-| Gene 1      | Red                  | R            | Generally affects the flower's red color level               |
-| Gene 2      | Yellow               | Y            | Generally affects the flower's yellow color level            |
-| Gene 3      | White                | W            | Generally affects the flower's white color level             |
-| Gene 4      | Brightness<br/>Shade | B<br>S       | Roses only<br />Generally affects the flower's red color brightness |
+| 基因序 | 基因含义            | 基因编码 | 效果                                                       |
+|  :-------: |  :-------: |  :-------: |  :-------: |
+| 1      |  Red         | Rr    | 简单理解为红色的程度          |
+| 2      | Yellow     | Yy |  简单理解为黄色的程度           |
+|3      | White      | Ww            | 简单理解为白色的程度 |
+| 4      | Brightness | Bb       | 【仅限于玫瑰】简单理解为影响具体的亮度|
 
 Each individual gene can have 3 different values. To put it simply, that value determines how the flower's phenotype is impacted by the corresponding gene.
 
