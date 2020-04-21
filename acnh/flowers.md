@@ -4,18 +4,18 @@
 
 Flowers come in 8 different species and 9 different colors. Not all species are available in all colors.
 
-| Type       |    Red    |  Yellow   |   White   |   Pink    |  Orange   |  Purple   |   Black   |   Blue    |   Green   |
+| 花色       |    红    |  黄  |   白   |   粉    |  橙   |  紫   |   黑   |   蓝    |   绿   |
 | ---------- | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-| Rose       | ![RR][RR] | ![YR][YR] | ![WR][WR] | ![PR][PR] | ![OR][OR] | ![LR][LR] | ![BR][BR] | ![UR][UR] |     X     |
-| Tulip      | ![RT][RT] | ![YT][YT] | ![WT][WT] | ![PT][PT] | ![OT][OT] | ![LT][LT] | ![BT][BT] |     X     |     X     |
-| Pansy      | ![RP][RP] | ![YP][YP] | ![WP][WP] |     X     | ![OP][OP] | ![LP][LP] |     X     | ![UP][UP] |     X     |
-| Cosmos     | ![RC][RC] | ![YC][YC] | ![WC][WC] | ![PC][PC] | ![OC][OC] |     X     | ![BC][BC] |     X     |     X     |
-| Lily       | ![RL][RL] | ![YL][YL] | ![WL][WL] | ![PL][PL] | ![OL][OL] |     X     | ![BL][BL] |     X     |     X     |
-| Hyacinth   | ![RH][RH] | ![YH][YH] | ![WH][WH] | ![PH][PH] | ![OH][OH] | ![LH][LH] |     X     | ![UH][UH] |     X     |
-| Windflower | ![RW][RW] |     X     | ![WW][WW] | ![PW][PW] | ![OW][OW] | ![LW][LW] |     X     | ![UW][UW] |     X     |
-| Mum        | ![RM][RM] | ![YM][YM] | ![WM][WM] | ![PM][PM] |     X     | ![LM][LM] |     X     |     X     | ![GM][GM] |
+| 玫瑰       | ![RR][RR] | ![YR][YR] | ![WR][WR] | ![PR][PR] | ![OR][OR] | ![LR][LR] | ![BR][BR] | ![UR][UR] |    ❌    |
+| 郁金香      | ![RT][RT] | ![YT][YT] | ![WT][WT] | ![PT][PT] | ![OT][OT] | ![LT][LT] | ![BT][BT] |    ❌    |    ❌    |
+| 三色堇     | ![RP][RP] | ![YP][YP] | ![WP][WP] |    ❌    | ![OP][OP] | ![LP][LP] |    ❌    | ![UP][UP] |    ❌    |
+| 波斯菊     | ![RC][RC] | ![YC][YC] | ![WC][WC] | ![PC][PC] | ![OC][OC] |    ❌    | ![BC][BC] |    ❌    |    ❌    |
+| 百合       | ![RL][RL] | ![YL][YL] | ![WL][WL] | ![PL][PL] | ![OL][OL] |    ❌    | ![BL][BL] |    ❌    |    ❌    |
+| 风信子   | ![RH][RH] | ![YH][YH] | ![WH][WH] | ![PH][PH] | ![OH][OH] | ![LH][LH] |    ❌    | ![UH][UH] |    ❌    |
+| 银莲花 | ![RW][RW] |    ❌    | ![WW][WW] | ![PW][PW] | ![OW][OW] | ![LW][LW] |    ❌    | ![UW][UW] |    ❌    |
+| 菊花       | ![RM][RM] | ![YM][YM] | ![WM][WM] | ![PM][PM] |    ❌    | ![LM][LM] |    ❌    |    ❌    | ![GM][GM] |
 
-> The Gold Rose is a special case.
+> 金玫瑰是一个特殊的例子。
 
 ## Flower Flags
 
